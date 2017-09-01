@@ -1,9 +1,3 @@
----
-layout: default
-title: Team Assure's 8420 Project
-description: CYBR 8420 Software Assurance Project
----
-
 # Semester-Project
 
 - [ ] 1. **Project Proposal**: 2-3 page report that describes the following:
