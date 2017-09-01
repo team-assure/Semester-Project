@@ -1,6 +1,6 @@
 # Semester-Project
 
-- [ ] 1. **Project Proposal**: 2-3 page report that describes the following:
+- [ ] 1. **Project Proposal** &ndash; due September 13, 2017: 2-3 page report that describes the following:
   * Open source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc.)
   * [Discuss License, procedures for making contributions, and contributor agreements](https://opensource.guide/how-to-contribute/#orienting-yourself-to-a-new-project)
   * Security related history (E.g. known vulnerabilities)
@@ -24,7 +24,7 @@
   * Automated code scanning results summary. Include links to full reports.
   * Summary of key findings
   * Links to pull requests to the original project and any follow-up interactions.
-- [ ] 6. **Class Presentation**: 10-minute class presentation that highlights the following:
+- [ ] 6. **Class Presentation** &ndash; due December 6, 2017: 10-minute class presentation that highlights the following:
   * Project description
   * Assurance claims
   * Gaps in security requirements and design of the original project
