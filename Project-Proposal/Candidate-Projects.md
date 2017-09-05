@@ -5,12 +5,15 @@
 
 * Open source operating system
 * Language: C
+* License: Apache 2.0
 * Contributors: 180
 * [https://www.openhub.net/p/zephyr-os](https://www.openhub.net/p/zephyr-os)
 
 **Python Programming language** [https://github.com/python/cpython](https://github.com/python/cpython)
 
+* Object-oriented scripting language with an emphasis on readability and code reuse
 * Language: Python
+* License: Python Software Foundation version 2
 * Contributors: 347
 * [https://www.openhub.net/p/python](https://www.openhub.net/p/python)
 
@@ -18,6 +21,7 @@
 
 * Open source code editor for web development
 * Language: Javascript
+* License: MIT
 * Contributors: 341
 * [https://www.openhub.net/p/codebrackets](https://www.openhub.net/p/codebrackets)
 
@@ -25,6 +29,7 @@
 
 * Source code editor and Notepad replacement
 * Language: C++
+* License: GNU GPL v2.0
 * Contributors: 126
 * [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/)
 
@@ -32,6 +37,7 @@
 
 * Rapid Development Framework for PHP
 * Language: PHP
+* License: MIT
 * Contributors: 481
 * [https://cakephp.org/](https://cakephp.org/)
 
@@ -39,6 +45,7 @@
 
 * High-level Python Web framework that encourages rapid development and clean, pragmatic design
 * Language: Python
+* License: BSD 3-clause "New" or "Revised"
 * Contributors: 1,465
 * [https://www.djangoproject.com/](https://www.djangoproject.com/)
 
@@ -46,15 +53,16 @@
 
 * Software for developing world hospitals
 * Language: Javascript
+* License: GNU GPL v3.0
 * Contributors: 92
 * [http://hospitalrun.io/](http://hospitalrun.io/)
 
 <!-- Template
-** ** [ ]( )
---
-* 
+** Name ** [githubSite](githubSite)
+* Description
 * Language: 
+* License: 
 * Contributors: 
-* [ ]( )
+* [projectSite](projectSite)
 --->
 
