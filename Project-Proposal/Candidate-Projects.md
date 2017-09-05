@@ -28,33 +28,33 @@
 * Contributors: 126
 * [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/)
 
-** Cake PHP ** [https://github.com/cakephp/cakephp](https://github.com/cakephp/cakephp)
+**Cake PHP** [https://github.com/cakephp/cakephp](https://github.com/cakephp/cakephp)
 
 * Rapid Development Framework for PHP
 * Language: PHP
 * Contributors: 481
 * [https://cakephp.org/](https://cakephp.org/)
 
-** Django ** [https://github.com/django/django](https://github.com/django/django)
+**Django** [https://github.com/django/django](https://github.com/django/django)
 
 * High-level Python Web framework that encourages rapid development and clean, pragmatic design
 * Language: Python
 * Contributors: 1,465
 * [https://www.djangoproject.com/](https://www.djangoproject.com/)
 
-** HospitalRun ** [https://github.com/HospitalRun/hospitalrun-frontend](https://github.com/HospitalRun/hospitalrun-frontend)
+**HospitalRun** [https://github.com/HospitalRun/hospitalrun-frontend](https://github.com/HospitalRun/hospitalrun-frontend)
 
 * Software for developing world hospitals
 * Language: Javascript
 * Contributors: 92
 * [http://hospitalrun.io/](http://hospitalrun.io/)
 
-<-- Template
+<!-- Template
 ** ** [ ]( )
-
+--
 * 
 * Language: 
 * Contributors: 
 * [ ]( )
--->
+--->
 
