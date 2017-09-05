@@ -1,4 +1,4 @@
-# Semester-Project
+# Semester-Project [https://robinagandhi.github.io/swa/pages/project.html]
 
 - [ ] 1. **Project Proposal** &ndash; due September 13, 2017: 2-3 page report that describes the following:
   * Open source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc.)
