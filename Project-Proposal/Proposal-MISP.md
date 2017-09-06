@@ -9,3 +9,6 @@
 
 # Motivation
 *Your motivation for selecting this project*
+* manageable code base
+* multi-user web environment provides many security requiremnts
+* written in PHP which is readable and has many tools available to evaluate the code
