@@ -62,32 +62,39 @@
 
 * Analytics and search dashboard for Elasticsearch
 * Language: javascript
+* License: Apache Version 2.0
 * Contributors: 201
 * [https://www.openhub.net/p/Kibana](https://www.openhub.net/kibana)
 
 **Bro** [https://github.com/bro/bro](https://github.com/bro/bro)
 
 * Language: C++
+* License: BSD-3-Clause
 * Contributors: 41
 * [https://www.openhub.net/p/bro](https://www.openhub.net/p/bro)
 
 **Modern Honey Net** [https://github.com/MNFaust/ModernHoneyNet](https://github.com/MNFaust/ModernHoneyNet)
 
 * Honey Pot
+* License: None
 * Language: python
 * Contributors: 2
 
 **MISP** [https://github.com/MISP/MISP](https://github.com/MISP/MISP)
+
+* Malware Information Sharing Platform & Threat Sharing
 * Language: php and javascript
+* License: GNU GPL v3.0
 * Contributors: 66
 * [https://www.openhub.net/p/MISPProject](https://www.openhub.net/p/MISPProject)
-* Malware Information Sharing Platform & Threat Sharing
 
-**OpenVPN** [https://github.com/OpenVPN](https://github.com/OpenVPN)
+**OpenVPN** [https://github.com/OpenVPN/openvpn](https://github.com/OpenVPN/openvpn)
+
+* VPN platform
 * Language: C
+* License: GNU GPL v2.0
 * Contributors: 86
 * [https://www.openhub.net/p/openvpn](https://www.openhub.net/p/openvpn)
-* VPN platform
 
 <!-- Template
 ** Name ** [githubSite](githubSite)
