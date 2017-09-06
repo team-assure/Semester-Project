@@ -83,10 +83,10 @@
 * [https://www.openhub.net/p/MISPProject] (https://www.openhub.net/p/MISPProject)
 * Malware Information Sharing Platform & Threat Sharing
 
-**OpenVPN** [https://github.com/OpenVPN] (https://github.com/OpenVPN)
+**OpenVPN** [https://github.com/OpenVPN](https://github.com/OpenVPN)
 * Language: C
 * Contributors: 86
-* [https://www.openhub.net/p/openvpn] (https://www.openhub.net/p/openvpn]
+* [https://www.openhub.net/p/openvpn](https://www.openhub.net/p/openvpn]
 * VPN platform
 
 <!-- Template
