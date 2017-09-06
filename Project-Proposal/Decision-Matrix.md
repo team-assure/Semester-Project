@@ -1,7 +1,7 @@
 
 
 |  |Actively accepting contributions|Project is welcoming|Has security requirements|Contributor diversity|Total|
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| ------------- | -------------:| -------------:| -------------:| -------------:| -------------:|
 |Zephyr Project|8|8|7|6|29|
 |Python|5|8|7|8|28|
 |Adobe Brackets|3|8|7|8|26|
