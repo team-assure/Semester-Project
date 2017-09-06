@@ -7,6 +7,7 @@
 * Language: C
 * License: Apache 2.0
 * Contributors: 180
+* Recently entered issues and pull requests
 * [https://www.openhub.net/p/zephyr-os](https://www.openhub.net/p/zephyr-os)
 
 **Python Programming language** [https://github.com/python/cpython](https://github.com/python/cpython)
@@ -15,6 +16,7 @@
 * Language: Python
 * License: Python Software Foundation version 2
 * Contributors: 347
+* Contributions peeked in 2010 and have been declining
 * [https://www.openhub.net/p/python](https://www.openhub.net/p/python)
 
 **Adobe Brackets** [https://github.com/adobe/brackets](https://github.com/adobe/brackets)
@@ -23,6 +25,7 @@
 * Language: Javascript
 * License: MIT
 * Contributors: 341
+* Not many contributions the last 2 years
 * [https://www.openhub.net/p/codebrackets](https://www.openhub.net/p/codebrackets)
 
 **Notepad++** [https://github.com/notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus)
@@ -31,6 +34,7 @@
 * Language: C++
 * License: GNU GPL v2.0
 * Contributors: 126
+* Increasing recent activity
 * [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/)
 
 **Cake PHP** [https://github.com/cakephp/cakephp](https://github.com/cakephp/cakephp)
@@ -39,6 +43,7 @@
 * Language: PHP
 * License: MIT
 * Contributors: 481
+* Constant contributions over past several years
 * [https://cakephp.org/](https://cakephp.org/)
 
 **Django** [https://github.com/django/django](https://github.com/django/django)
@@ -47,6 +52,7 @@
 * Language: Python
 * License: BSD 3-clause "New" or "Revised"
 * Contributors: 1,465
+* Low but steady level of contributions
 * [https://www.djangoproject.com/](https://www.djangoproject.com/)
 
 **HospitalRun** [https://github.com/HospitalRun/hospitalrun-frontend](https://github.com/HospitalRun/hospitalrun-frontend)
@@ -55,6 +61,7 @@
 * Language: Javascript
 * License: GNU GPL v3.0
 * Contributors: 92
+* Low level of activity
 * [http://hospitalrun.io/](http://hospitalrun.io/)
 
 
@@ -64,6 +71,7 @@
 * Language: javascript
 * License: Apache Version 2.0
 * Contributors: 201
+* Steady level of recent activity
 * [https://www.openhub.net/p/Kibana](https://www.openhub.net/kibana)
 
 **Bro** [https://github.com/bro/bro](https://github.com/bro/bro)
@@ -71,6 +79,7 @@
 * Language: C++
 * License: BSD-3-Clause
 * Contributors: 41
+* Decreasing level recent of activity
 * [https://www.openhub.net/p/bro](https://www.openhub.net/p/bro)
 
 **Modern Honey Net** [https://github.com/MNFaust/ModernHoneyNet](https://github.com/MNFaust/ModernHoneyNet)
@@ -78,6 +87,7 @@
 * Honey Pot
 * License: None
 * Language: python
+* Minimal level of activity - almost no recent activity
 * Contributors: 2
 
 **MISP** [https://github.com/MISP/MISP](https://github.com/MISP/MISP)
@@ -86,6 +96,7 @@
 * Language: php and javascript
 * License: GNU GPL v3.0
 * Contributors: 66
+* Steady level of recent activity
 * [https://www.openhub.net/p/MISPProject](https://www.openhub.net/p/MISPProject)
 
 **OpenVPN** [https://github.com/OpenVPN/openvpn](https://github.com/OpenVPN/openvpn)
@@ -94,6 +105,7 @@
 * Language: C
 * License: GNU GPL v2.0
 * Contributors: 86
+* Steady level of recent activity
 * [https://www.openhub.net/p/openvpn](https://www.openhub.net/p/openvpn)
 
 <!-- Template
