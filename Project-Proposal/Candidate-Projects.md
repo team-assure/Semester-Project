@@ -57,6 +57,32 @@
 * Contributors: 92
 * [http://hospitalrun.io/](http://hospitalrun.io/)
 
+
+**Kibana Project** [https://github.com/elastic/kibana] (https://github.com/elastic/kibana)
+
+* Analytics and search dashboard for Elasticsearch
+* Language: javascript
+* Contributors: 201
+* [https://www.openhub.net/p/Kibana] (https://www.openhub.net/kibana)
+
+**Bro** [https://github.com/bro/bro] (https://github.com/bro/bro)
+
+* Language: C++
+* Contributors: 41
+* [https://www.openhub.net/p/bro] (https://www.openhub.net/p/bro)
+
+**Modern Honey Net** [https://github.com/MNFaust/ModernHoneyNet] (https://github.com/MNFaust/ModernHoneyNet)
+
+* Honey Pot
+* Language: python
+* Contributors: 2
+
+**MISP** [https://github.com/MISP/MISP] (https://github.com/MISP/MISP)
+* Language: php and javascript
+* Contributors: 66
+* [https://www.openhub.net/p/MISPProject] (https://www.openhub.net/p/MISPProject)
+* Malware Information Sharing Platform & Threat Sharing
+
 <!-- Template
 ** Name ** [githubSite](githubSite)
 * Description
