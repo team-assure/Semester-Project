@@ -1,3 +1,5 @@
+
+
 |  |Actively accepting contributions|Project is welcoming|Has security requirements|Contributor diversity|Total|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 |Zephyr Project|8|8|7|6|29|
