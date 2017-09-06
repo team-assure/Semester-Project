@@ -8,6 +8,7 @@
 * License: Apache 2.0
 * Contributors: 180
 * Recently entered issues and pull requests
+* May be too complex - could focus on network modules 
 * [https://www.openhub.net/p/zephyr-os](https://www.openhub.net/p/zephyr-os)
 
 **Python Programming language** [https://github.com/python/cpython](https://github.com/python/cpython)
@@ -35,6 +36,7 @@
 * License: GNU GPL v2.0
 * Contributors: 126
 * Increasing recent activity
+* Security vulnerabilies of plug-ins and updater
 * [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/)
 
 **Cake PHP** [https://github.com/cakephp/cakephp](https://github.com/cakephp/cakephp)
@@ -62,8 +64,8 @@
 * License: GNU GPL v3.0
 * Contributors: 92
 * Low level of activity
+* Not in BlackDuck
 * [http://hospitalrun.io/](http://hospitalrun.io/)
-
 
 **Kibana Project** [https://github.com/elastic/kibana](https://github.com/elastic/kibana)
 
