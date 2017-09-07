@@ -25,11 +25,14 @@
 
 # Security
 ## Security related history (E.g. known vulnerabilities), 
-* Malware Information Sharing Platform (MISP) before 2.3.90 allows remote attackers to conduct PHP object injection attacks via crafted serialized data, related to TemplatesController.php and populate_event_from_template_attributes.ctp.
+* https://nvd.nist.gov/vuln/detail/CVE-2017-13671 app/View/Helper/CommandHelper.php in MISP before 2.4.79 has persistent XSS via comments. It only impacts the users of the same instance because the comment field is not part of the MISP synchronisation.
+* https://nvd.nist.gov/vuln/detail/CVE-2015-5721 Malware Information Sharing Platform (MISP) before 2.3.90 allows remote attackers to conduct PHP object injection attacks via crafted serialized data, related to TemplatesController.php and populate_event_from_template_attributes.ctp.
 * Multiple cross-site scripting (XSS) vulnerabilities in the template-creation feature in Malware Information Sharing Platform (MISP) before 2.3.90 allow remote attackers to inject arbitrary web script or HTML via vectors involving (1) add.ctp, (2) edit.ctp, and (3) ajaxification.js.
-* app/Controller/TemplatesController.php in Malware Information Sharing Platform (MISP) before 2.3.92 does not properly restrict filenames under the tmp/files/ directory, which has unspecified impact and attack vectors.
+* https://nvd.nist.gov/vuln/detail/CVE-2015-5719 app/Controller/TemplatesController.php in Malware Information Sharing Platform (MISP) before 2.3.92 does not properly restrict filenames under the tmp/files/ directory, which has unspecified impact and attack vectors.
 
-Functional Security requirements for the software*
+## Functional Security requirements for the software
+* Protect group private data from leaking to another's group data
+* Only authorized users can modify other user's data
 
 # Motivation
 *Your motivation for selecting this project*
