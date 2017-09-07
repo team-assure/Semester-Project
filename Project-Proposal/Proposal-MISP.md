@@ -5,8 +5,8 @@
 *Discuss License, procedures for making contributions, and contributor agreements*
 * GNU Affero General Public License v3.0
   * requires stating changes
-  *allows commercial use
-  *give credit
+  * allows commercial use
+  * give credit
 
 # Security
 ## Security related history (E.g. known vulnerabilities), 
