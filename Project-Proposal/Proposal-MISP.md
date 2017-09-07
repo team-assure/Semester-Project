@@ -7,6 +7,21 @@
   * requires stating changes
   * allows commercial use
   * give credit
+* Contribute by identifying bug, issue, or new feature
+  * include as much info as possible including version, screenshots, and steps to reproduce the issue
+  * welcomes interacting with existing issues to see what is the top priority
+* When reporting security vulnerabilities, report directly to CIRCL or encrypt the message with their PGP key
+  * willing to acknowledge contributors who identify security vulnerabilities
+* Roadmap and future features is largely determined by user community
+* Steps
+  * Branch from core project
+  * commit with meaningful commit message
+  * generate a changelog
+  * open a pull request
+  * prefer small, gradual changes
+  * if documentation needs to be updated, should make commit to misp-book as well
+  * include as much detail in the commit message as possible
+  * don't commit sensitive information
 
 # Security
 ## Security related history (E.g. known vulnerabilities), 
