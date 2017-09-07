@@ -4,7 +4,7 @@
 # Contributions & Licensing
 *Discuss License, procedures for making contributions, and contributor agreements*
 * GNU Affero General Public License v3.0
-  *requires stating changes
+  * requires stating changes
   *allows commercial use
   *give credit
 
