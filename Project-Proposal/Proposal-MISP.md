@@ -1,6 +1,8 @@
 # Description
 *What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc.*
 
+The [MISP Project](http://www.misp-project.org/) is an open source platform for sharing and analyzing malware.
+
 # Contributions & Licensing
 *Discuss License, procedures for making contributions, and contributor agreements*
 * GNU Affero General Public License v3.0
