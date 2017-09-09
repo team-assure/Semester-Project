@@ -5,11 +5,9 @@ The [MISP Project](http://www.misp-project.org/) is an open source platform for 
 
 # Licensing & Contributions
 *Discuss License, procedures for making contributions, and contributor agreements*
-The [MISP Project](http://www.misp-project.org/) is licensed using the GNU Affero General Public License v3.0, a copyleft license that is very similar to the GNU General Public License v3.
-* GNU Affero General Public License v3.0
-  * requires stating changes
-  * allows commercial use
-  * give credit
+
+The [MISP Project](http://www.misp-project.org/) is licensed using the GNU Affero General Public License v3.0, a copyleft license that is very similar to the GNU General Public License v3 with one additional requirement [1].  The GNU GPL v3 allows open source software to stay open source by permitting it to be used in subsequent projects but requiring that the source code of those subsequent works is made open source under the same terms set forward by the GNU GPL v3 license [2].  The GNU Affero General Public License v3.0 adheres to these same rules with the added requirement of publishing the source code when changes are made to the code and it is run on a server where users are allowed to connect to it.  This ensures that developers that take the code and modify it to run on their own servers are also required to share those changes with the community, ensuring that the software stay open source.
+
 * Contribute by identifying bug, issue, or new feature
   * include as much info as possible including version, screenshots, and steps to reproduce the issue
   * welcomes interacting with existing issues to see what is the top priority
@@ -45,3 +43,5 @@ The [MISP Project](http://www.misp-project.org/) is licensed using the GNU Affer
 * appears to have a strong user community
 
 # References
+[1] https://www.gnu.org/licenses/licenses.html#GPL
+[2] https://choosealicense.com/licenses/gpl-3.0/
