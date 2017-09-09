@@ -3,8 +3,9 @@
 
 The [MISP Project](http://www.misp-project.org/) is an open source platform for sharing and analyzing malware.
 
-# Contributions & Licensing
+# Licensing & Contributions
 *Discuss License, procedures for making contributions, and contributor agreements*
+The [MISP Project](http://www.misp-project.org/) is licensed using the GNU Affero General Public License v3.0, a copyleft license that is very similar to the GNU General Public License v3.
 * GNU Affero General Public License v3.0
   * requires stating changes
   * allows commercial use
@@ -42,3 +43,5 @@ The [MISP Project](http://www.misp-project.org/) is an open source platform for 
 * multi-user web environment provides many security requiremnts
 * written in PHP which is readable and has many tools available to evaluate the code
 * appears to have a strong user community
+
+# References
