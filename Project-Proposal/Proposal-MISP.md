@@ -10,20 +10,9 @@ The [MISP Project](http://www.misp-project.org/) is licensed using the GNU Affer
 
 The project has a well documented contributions process.  Contributions can be made by idenifying new features, bugs, issues, or security vulnerabilities.  When contributing features, bugs, or issues, the contribution should be made by opening an issue on the [GitHub page](https://github.com/MISP/MISP/issues).  Feature requests are tagged to identify them.  The project team encourages contributors to review existing issues and feature requests before submitting a new one.  If the same issue or feature is identified, they encourage interacting with the existing one rather than opening a new one because they determine priority for new features issues based on the number of users who are interested in them.  
 
-Security vulnerabilities are handled differently.  The team requests that security vulnerabilities be reported directly to the [Computer Incident Response Center - Luxembourg (CIRCL)](https://www.circl.lu/contact/) and encrypted with a specific PGP key to maintain security since the tool is used in many critical infrastructure areas.  Security vulnerabilities are usually fixed within 48 hours after being comfirmed.  CVEs are requested for each vulnerability, either by the contributor or by the project team.  The project will give credit to contributors who identify security vulnerabilities if the contributor chooses to be acknowledged.
+The following detailed steps explain how a contribution should be made.  If an issue or feature request is being made, an issue should be opened on the project's GitHub page.  This issue should include as much detail as possible including what version is affected, the steps users can take to reproduce the issue, and screenshots of the issue if available.  If the contributor is submitting code to resolve an issue or feature request, the following should occur.  First, the contributor should fork the project to create their own copy.  Then, they should branch the project from the latest version.  This is where they will make their recommended changes.  Once the changes are made, they should commit them with a meaningful commit message.  This message should include as much detail as possible about what was changed.  Then, a pull request should be opened to recommend the changes.  The project team recommends that the following best practices take place throughout this process.  Commit messages should include as much detail as possible.  Changes should be small and gradual versus making many changes at once.  If documentation changes are required for the pull request, those should be committed at the same time.  Ensure that when a commit and pull request is done that all sensitive information that may be used for testing purposes is removed.
 
-* Contribute by identifying bug, issue, or new feature
-  * include as much info as possible including version, screenshots, and steps to reproduce the issue
-  * welcomes interacting with existing issues to see what is the top priority
-* Steps
-  * Branch from core project
-  * commit with meaningful commit message
-  * generate a changelog
-  * open a pull request
-  * prefer small, gradual changes
-  * if documentation needs to be updated, should make commit to misp-book as well
-  * include as much detail in the commit message as possible
-  * don't commit sensitive information
+Security vulnerabilities are handled differently.  The team requests that security vulnerabilities be reported directly to the [Computer Incident Response Center - Luxembourg (CIRCL)](https://www.circl.lu/contact/) and encrypted with a specific PGP key to maintain security since the tool is used in many critical infrastructure areas.  Security vulnerabilities are usually fixed within 48 hours after being comfirmed.  CVEs are requested for each vulnerability, either by the contributor or by the project team.  The project will give credit to contributors who identify security vulnerabilities if the contributor chooses to be acknowledged.
 
 # Security
 ## Security related history (E.g. known vulnerabilities), 
