@@ -8,6 +8,8 @@ The [MISP Project](http://www.misp-project.org/) is an open source platform for 
 
 The [MISP Project](http://www.misp-project.org/) is licensed using the GNU Affero General Public License v3.0, a copyleft license that is very similar to the GNU General Public License v3 with one additional requirement [1].  The GNU GPL v3 allows open source software to stay open source by permitting it to be used in subsequent projects but requiring that the source code of those subsequent works is made open source under the same terms set forward by the GNU GPL v3 license [2].  The GNU Affero General Public License v3.0 adheres to these same rules with the added requirement of publishing the source code when changes are made to the code and it is run on a server where users are allowed to connect to it.  This ensures that developers that take the code and modify it to run on their own servers are also required to share those changes with the community, ensuring that the software stay open source.
 
+The project has a well documented contributions process.  Contributions can be made by idenifying new features, bugs, issues, or security vulnerabilities.  When contributing features, bugs, or issues, the contribution should be made by opening an issue on the [GitHub page](https://github.com/MISP/MISP/issues).  Feature requests are tagged to identify them.  The project team encourages contributors to review existing issues and feature requests before submitting a new one.  If the same issue or feature is identified, they encourage interacting with the existing one rather than opening a new one because they determine priority for new features issues based on the number of users who are interested in them.  
+
 * Contribute by identifying bug, issue, or new feature
   * include as much info as possible including version, screenshots, and steps to reproduce the issue
   * welcomes interacting with existing issues to see what is the top priority
@@ -44,4 +46,5 @@ The [MISP Project](http://www.misp-project.org/) is licensed using the GNU Affer
 
 # References
 [1] https://www.gnu.org/licenses/licenses.html#GPL
+
 [2] https://choosealicense.com/licenses/gpl-3.0/
