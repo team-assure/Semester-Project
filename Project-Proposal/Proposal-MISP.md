@@ -14,6 +14,8 @@ The following detailed steps explain how a contribution should be made.  If an i
 
 Security vulnerabilities are handled differently.  The team requests that security vulnerabilities be reported directly to the [Computer Incident Response Center - Luxembourg (CIRCL)](https://www.circl.lu/contact/) and encrypted with a specific PGP key to maintain security since the tool is used in many critical infrastructure areas.  Security vulnerabilities are usually fixed within 48 hours after being comfirmed.  CVEs are requested for each vulnerability, either by the contributor or by the project team.  The project will give credit to contributors who identify security vulnerabilities if the contributor chooses to be acknowledged.
 
+The MISP project does not explicitly state any contributor agreements.  However, the following are in place for contributors.  The project does adhere to a [code of conduct](https://github.com/MISP/MISP/blob/2.4/code_of_conduct.md) which ensures that all contributors are welcome and treated respectfully and fairly.  In addition, the project does acknowledge security vulnerabilities as stated above as well as project authors.  Authors are acknowledged in the [authors document](https://github.com/MISP/MISP/blob/2.4/AUTHORS).  However, it is unclear what criteria needs to be met to be acknowledged in this document since it is not an exhuastive list of all contributors.
+
 # Security
 ## Security related history (E.g. known vulnerabilities), 
 * https://nvd.nist.gov/vuln/detail/CVE-2017-13671 app/View/Helper/CommandHelper.php in MISP before 2.4.79 has persistent XSS via comments. It only impacts the users of the same instance because the comment field is not part of the MISP synchronisation.
