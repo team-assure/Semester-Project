@@ -10,12 +10,11 @@ The [MISP Project](http://www.misp-project.org/) is licensed using the GNU Affer
 
 The project has a well documented contributions process.  Contributions can be made by idenifying new features, bugs, issues, or security vulnerabilities.  When contributing features, bugs, or issues, the contribution should be made by opening an issue on the [GitHub page](https://github.com/MISP/MISP/issues).  Feature requests are tagged to identify them.  The project team encourages contributors to review existing issues and feature requests before submitting a new one.  If the same issue or feature is identified, they encourage interacting with the existing one rather than opening a new one because they determine priority for new features issues based on the number of users who are interested in them.  
 
+Security vulnerabilities are handled differently.  The team requests that security vulnerabilities be reported directly to the [Computer Incident Response Center - Luxembourg (CIRCL)](https://www.circl.lu/contact/) and encrypted with a specific PGP key to maintain security since the tool is used in many critical infrastructure areas.  Security vulnerabilities are usually fixed within 48 hours after being comfirmed.  CVEs are requested for each vulnerability, either by the contributor or by the project team.  The project will give credit to contributors who identify security vulnerabilities if the contributor chooses to be acknowledged.
+
 * Contribute by identifying bug, issue, or new feature
   * include as much info as possible including version, screenshots, and steps to reproduce the issue
   * welcomes interacting with existing issues to see what is the top priority
-* When reporting security vulnerabilities, report directly to CIRCL or encrypt the message with their PGP key
-  * willing to acknowledge contributors who identify security vulnerabilities
-* Roadmap and future features is largely determined by user community
 * Steps
   * Branch from core project
   * commit with meaningful commit message
