@@ -1,7 +1,11 @@
 # Description
 *What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc.*
 
-The [MISP Project](http://www.misp-project.org/) is an open source platform for sharing and analyzing malware.
+The [Malware Information Sharing Project (MISP)](https://www.misp-project.org) is a Linux based program which analyzes, stores and permits for easy sharing of malware threats.  They are currently on version 2.4.79 and the code is available for download via [GitHub](https://github.com/MISP/MISP).  It is written mostly in PHP, with some portions of CSS, JavaScript, and HTML, per a report from [OpenHub.net](https://www.openhub.net/p/MISPProject/analyses/latest/languages_summary).  
+
+The project began, as many do, as a side project.  Christophe Vandeplas started work, on what is now called MISP, in June 2011.  He saw a need to be able to take Indicators of Compromise, no matter how they are submitted, via email, pdfs, etc., and create a way to parse that information so it could be analyzed and shared.  Documentation is maintained in a [git book](https://github.com/MISP/misp-book) format. You can run a version of the project via premade virtual machines that are compatible with VirtualBox and there are third-party docker containers available to be used as well, the project website has links available.  In addition, there are many software providers that offer tools that extend the capabilities of the original MISP code and project.
+
+Per the GitHub repository there is a total of 67 contributors that now maintain the project on a volunteer basis.  There have been regular commits to it for the last year, and the GitHub reports show there have been regular one's since 2012.  
 
 # Licensing & Contributions
 *Discuss License, procedures for making contributions, and contributor agreements*
