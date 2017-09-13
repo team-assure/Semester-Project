@@ -30,8 +30,8 @@ The MISP project does not explicitly state any contributor agreements.  However,
 * https://nvd.nist.gov/vuln/detail/CVE-2015-5719 - app/Controller/TemplatesController.php in Malware Information Sharing Platform (MISP) before 2.3.92 does not properly restrict filenames under the tmp/files/ directory, which has unspecified impact and attack vectors. *Published: September 03, 2016; 04:59:00 PM -04:00*
 
 ## Functional Security requirements for the software
-* Protect group private data from leaking to another's group data
-* Only authorized users can modify other user's data
+
+The MISP software chosen, has functional security requirements that pertain to many different software packages but also has some unique requirements.  One general requirement of most software packages would be authentication of a user to the space.  Another general security requirement would be the protection against web attacks of various forms and validating that this software is not vulnerable to the OWSAP top 10.  MISP is unique, in the fact that this is an intelligence-sharing platform where data can be shared among private groups.  Therefore, a security requirement would be to have access control around the containers or buckets of data that one group holds.  Mechanisms need to be in place to insure that this data does not spill into other containers.  Another security requirement would be within the group which members can delegate, who is authorized to modify or publish other’s data?  There would need to be a function for delegating sharing.
 
 # Motivation
 *Your motivation for selecting this project*
