@@ -1,14 +1,14 @@
 # Semester-Project 
 https://robinagandhi.github.io/swa/pages/project.html
 
-- [ ] 1. **Project Proposal** &ndash; due September 13, 2017: 2-3 page report that describes the following:
+- [x] 1. **Project Proposal**: due September 13, 2017: 2-3 page report that describes the following:
   * Open source project description (What is it?, Contributors, Activity, Use, Popularity, Languages used, platform, documentation sources, etc.)
   * [Discuss License, procedures for making contributions, and contributor agreements](https://opensource.guide/how-to-contribute/#orienting-yourself-to-a-new-project)
   * Security related history (E.g. known vulnerabilities)
   * Functional security requirements for the software
   * Your motivation for selecting this project
   * Link to your team github repository that shows your [project](https://help.github.com/articles/about-project-boards/) [plan](https://en.wikipedia.org/wiki/Kanban_board) and internal collaboration
-- [ ] 2. **Assurance Cases Software Security Engineering**: A short report that includes the following:
+- [ ] 2. **Assurance Cases Software Security Engineering**: due September 27, 2017: A short report that includes the following:
   * 5 assurance claims that would require evidence from software security engineering activities
   * Build 5 assurance cases; one for each of the claims
 - [ ] 3. **Requirements for Software Security Engineering**: 2-3 page report that describes the following:
