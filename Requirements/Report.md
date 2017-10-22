@@ -34,7 +34,7 @@ The final assurance claims for the MISP project are as follows:
 
   4. Common Attacks
      
-     Description:
+     Description:  The system has a security requirement to secure the sensitive data it stores in the face of any common web application attack, including XSS, SQL injection, etc.  To ensure this takes place, the system has a security requirement to sanitize user-inputted data and employ other secure development practices such as utilizing prepared statements to prevent against SQL injection attacks.
      
      Link: [Common Attacks](./misuse-cases/Common-Attacks.svg)
 
