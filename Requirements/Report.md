@@ -28,7 +28,7 @@ The final assurance claims for the MISP project are as follows:
 
   3. Authentication
   
-     Description:
+     Description: The system has a security requirement to ensure that the authentication mechanism properly protects access to sensitive data.  Authentication centers around the login mechanism, but additional requirements exist around this login to ensure it is adequate.  THe login mechanism has a requirement to operate securely in the face of a variety of attacks, including Insufficient authentication, weak password recovery, and brute force attacks.  This can be accomplished by adding additional requirements to the login mechanism, including ensuring that login attempts are limited and that authentication and authorization is checked with every attempt to access data.  Requirements for other processes that may affect the security of the login include having adequate help desk processes to verify the identity of callers when they wish to change their passwords to protect against weak password recovery attacks.
      
      Link: [Authentication](./misuse-cases/Authentication.svg)
 
