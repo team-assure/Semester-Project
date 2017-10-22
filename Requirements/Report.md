@@ -4,9 +4,9 @@
 
   1. Data Leakage
          
-         Description:
+     Description:
  
- Link: [Data Leakage](./misuse-cases/Data-Leakage.svg)
+     Link: [Data Leakage](./misuse-cases/Data-Leakage.svg)
 
   1. Access Control
          Description:
