@@ -18,32 +18,32 @@ The final assurance claims for the MISP project are as follows:
          
      Description: The system has a method for defining which individuals and groups, if any, will receive a submitted event.  The administrators are responsible for assigning the users to the appropriate groups.  However, users are able to create sharing groups to facilitate the sharing of events, if they are assigned that permission.  Depending on how the group is configured determines if and how they are able to access the event information.
  
-     Link: [Data Leakage](https://www.lucidchart.com/invitations/accept/1518de8f-6cbb-4010-923b-a17f04cffb25)
+     Link: [Data Leakage](https://www.lucidchart.com/documents/view/aa25515e-c198-43e7-9e40-2c59dca7f7f1/0)
 
   2. Access Control
   
      Description: Security requirements around access control should consider the restrictions placed on authenticated users.  Done properly, this will prevent attackers from accessing unauthorized functionality or data.  Functionality references should require that the user is authenticated and that the user has the proper roles or privileges to use that function.  Data references should require that the user is authorized by using a reference map or access control check.
  
-     Link: [Access Control](https://www.lucidchart.com/invitations/accept/1518de8f-6cbb-4010-923b-a17f04cffb25)
+     Link: [Access Control](https://www.lucidchart.com/documents/view/aa25515e-c198-43e7-9e40-2c59dca7f7f1/1)
 
   3. Authentication
   
      Description: The system has a security requirement to ensure that the authentication mechanism properly protects access to sensitive data.  Authentication centers around the login mechanism, but additional requirements exist around this login to ensure it is adequate.  THe login mechanism has a requirement to operate securely in the face of a variety of attacks, including Insufficient authentication, weak password recovery, and brute force attacks.  This can be accomplished by adding additional requirements to the login mechanism, including ensuring that login attempts are limited and that authentication and authorization is checked with every attempt to access data.  Requirements for other processes that may affect the security of the login include having adequate help desk processes to verify the identity of callers when they wish to change their passwords to protect against weak password recovery attacks.
      
-     Link: [Authentication](https://www.lucidchart.com/invitations/accept/1518de8f-6cbb-4010-923b-a17f04cffb25)
+     Link: [Authentication](https://www.lucidchart.com/documents/view/aa25515e-c198-43e7-9e40-2c59dca7f7f1/2)
 
   4. Common Attacks
      
      Description:  The system has a security requirement to secure the sensitive data it stores in the face of any common web application attack, including XSS, SQL injection, etc.  To ensure this takes place, the system has a security requirement to sanitize user-inputted data and employ other secure development practices such as utilizing prepared statements to prevent against SQL injection attacks.
      
-     Link: [Common Attacks](https://www.lucidchart.com/invitations/accept/1518de8f-6cbb-4010-923b-a17f04cffb25)
+     Link: [Common Attacks](https://www.lucidchart.com/documents/view/aa25515e-c198-43e7-9e40-2c59dca7f7f1/3)
 
   5. Identity Management
   
      Description:  Security requirements around identity management are important to ensure that the system has a requirement to allow for termination of accounts.  This could be done by MISP being connected by an IDM source such as LDAP, which would de-provision accounts at separation.  Standardized, consolidated, and automated identity management services are in place to reduce risk, cost, and improve operational efficiency.  Identity and access management aid in reducing risk for an organization by removing access and roles from all services of an organization by deprovisioning.
 
      
-     Link: [Fired employee](https://www.lucidchart.com/invitations/accept/1518de8f-6cbb-4010-923b-a17f04cffb25)
+     Link: [Fired employee](https://www.lucidchart.com/documents/view/aa25515e-c198-43e7-9e40-2c59dca7f7f1/4)
 
 
 ### Project documentation review
