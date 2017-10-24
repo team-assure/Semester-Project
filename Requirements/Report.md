@@ -46,6 +46,12 @@ The final assurance claims for the MISP project are as follows:
 
 
 ### Project documentation review
+### Alignment of security requirements with advertised features
+
+MISP focuses on ease of use as their number one selling point, which adds concern that security requirements may be over looked to promote this feature.  Another advertised feature is the ease of sharing with trusted partners and trust-groups.  This is supposed to eliminate the duplication of work and enable collaborative analysis.  As part of this ease of use idea, data sharing is made easier by automatically exchanging and synchronizing with other parties and trust-groups in MISP.  MISP allows for simple built in sharing to delegate the publication of events or indicators to other organizations.  Each organization can use the advanced filtering functionality to tailor their own sharing policy including flexible sharing group policy and attribute level distribution mechanisms.
+
+These features align to some extent with our security requirements.  It does require authentication.  But, in the documentation, is does not say that you could connect MISP to an identity store.  This would allow your own identity management system to control access.  This would help with identity creation and decommissioning.  It also not clear whether a user can create accounts as well, even an admin account.  There is user and role creation to dictate access control.  They promote the automatic exchange and synchronization of data and events, which would be done by an API.  Applications and API’s do not always verify the user is authorized for that target resource.  This would result in an access control flaw.
+
 #### Security related configuration
 The features section of the MISP website does not suggest an emphasis on the security of the system, rather it focuses on the ease of use for the user to add, edit, and share the event information as they have entered it.  It also focuses on the flexibility of it's design in various capacities, i.e. storing of data, integration with in-house solutions, and sharing of information wtih colleagues and others.
 
