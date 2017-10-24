@@ -38,9 +38,10 @@ The final assurance claims for the MISP project are as follows:
      
      Link: [Common Attacks](https://www.lucidchart.com/invitations/accept/1518de8f-6cbb-4010-923b-a17f04cffb25)
 
-  5. Fired Employee
+  5. Identity Management
   
-     Description:
+     Description:  Security requirements around identity management are important to ensure that user accounts are removed when there is a separation.  Standardized, consolidated, and automated identity management services are in place to reduce risk, cost, and improve operational efficiency.
+
      
      Link: [Fired employee](https://www.lucidchart.com/invitations/accept/1518de8f-6cbb-4010-923b-a17f04cffb25)
 
