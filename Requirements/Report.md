@@ -46,7 +46,7 @@ The final assurance claims for the MISP project are as follows:
 
 
 ### Project documentation review
-### Alignment of security requirements with advertised features
+#### Alignment of security requirements with advertised features
 
 MISP focuses on ease of use as their number one selling point, which adds concern that security requirements may be over looked to promote this feature.  Another advertised feature is the ease of sharing with trusted partners and trust-groups.  This is supposed to eliminate the duplication of work and enable collaborative analysis.  As part of this ease of use idea, data sharing is made easier by automatically exchanging and synchronizing with other parties and trust-groups in MISP.  MISP allows for simple built in sharing to delegate the publication of events or indicators to other organizations.  Each organization can use the advanced filtering functionality to tailor their own sharing policy including flexible sharing group policy and attribute level distribution mechanisms.
 
