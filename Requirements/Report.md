@@ -22,7 +22,7 @@ The final assurance claims for the MISP project are as follows:
 
   2. Access Control
   
-     Description: Security requirements around access control should consider the restrictions placed on authenticated users.  Done properly, this will prevent attackers from accessing unauthorized functionality or data.
+     Description: Security requirements around access control should consider the restrictions placed on authenticated users.  Done properly, this will prevent attackers from accessing unauthorized functionality or data.  Functionality references should require that the user is authenticated and that the user has the proper roles or privileges to use that function.  Data references should require that the user is authorized by using a reference map or access control check.
  
      Link: [Access Control](https://www.lucidchart.com/invitations/accept/1518de8f-6cbb-4010-923b-a17f04cffb25)
 
