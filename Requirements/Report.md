@@ -49,6 +49,6 @@ The final assurance claims for the MISP project are as follows:
 #### Security related configuration
 The features section of the MISP website does not suggest an emphasis on the security of the system, rather it focuses on the ease of use for the user to add, edit, and share the event information as they have entered it.  It also focuses on the flexibility of it's design in various capacities, i.e. storing of data, integration with in-house solutions, and sharing of information wtih colleagues and others.
 
-Like most programs, an administrator has the responsibility to add, edit, or delete users, maintain organizations (both internal and external), and create roles, to which users are assigned, among other tasks.
+However, many of the system components involved in the security requirements above are discussed in the features section.  Like most programs, an administrator has the responsibility to add, edit, or delete users, maintain organizations (both internal and external), and create roles, to which users are assigned, among other tasks.  This implies that role-based access control is a capability of the system.  The features indicate that the system has a "flexible API to integrate MISP with \[other\] solutions" but does not discuss how it secures the admin features of that API.  Also, the documentation heavily references the sharing of data but does not allude to any of the security measures around such sharing other than the role-based access control already discussed.
 
 #### Installation
