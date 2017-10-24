@@ -51,4 +51,8 @@ The features section of the MISP website does not suggest an emphasis on the sec
 
 However, many of the system components involved in the security requirements above are discussed in the features section.  Like most programs, an administrator has the responsibility to add, edit, or delete users, maintain organizations (both internal and external), and create roles, to which users are assigned, among other tasks.  This implies that role-based access control is a capability of the system.  The features indicate that the system has a "flexible API to integrate MISP with \[other\] solutions" but does not discuss how it secures the admin features of that API.  Also, the documentation heavily references the sharing of data but does not allude to any of the security measures around such sharing other than the role-based access control already discussed.
 
+The User Guide does discuss security-related topics in more detail.  For instance, it describes how to set up GPG encryption keys to be used for login, which fits into the secure authentication requirement.
+
+The User Guide documentation does not reference all the security requirements. The requirement to protect against common web apps is not discussed in the documentation.
+
 #### Installation
