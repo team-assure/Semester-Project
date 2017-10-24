@@ -56,3 +56,12 @@ The User Guide does discuss security-related topics in more detail.  For instanc
 The User Guide documentation does not reference all the security requirements. The requirement to protect against common web apps is not discussed in the documentation.
 
 #### Installation
+The installation guide references multiple security best practices.  To start, it recommends installing a minimal server version and enabling the server features required by the system.  After the necessary features are enabled, it recommends hardening them, specifically the OS, apache, and MySQL.  In addition, it recommends changing many of the default settings after installation, including the admin password, email address, and GPG key and the salt used to generate GPG keys.
+
+<include stuff about certificate:
+If a valid SSL certificate is not already created for the server, create a self-signed certificate - not good!
+sudo openssl req -newkey rsa:4096 -days 365 -nodes -x509 \ - good algorithm used in rsa 4096 to generate certificate>
+
+Some things that could be improved:
+<includes config for 80 and 443 so doesn't force https.
+database password included in config file in plaintext>
