@@ -48,16 +48,16 @@ The final assurance claims for the MISP project are as follows:
 
 ### Project documentation review
 
-    MISP documentation is found in the following locations:
-     * [Installing MISP](https://github.com/MISP/MISP/blob/2.4/INSTALL/INSTALL.ubuntu1604.txt)
-     * [Initial Configuration](https://www.circl.lu/doc/misp/user-management/)
-     * [Regular Administration](https://www.circl.lu/doc/misp/administration/)
+MISP documentation is found in the following locations:
+* [Installing MISP](https://github.com/MISP/MISP/blob/2.4/INSTALL/INSTALL.ubuntu1604.txt) 
+* [Initial Configuration](https://www.circl.lu/doc/misp/user-management/)
+* [Regular Administration](https://www.circl.lu/doc/misp/administration/)
 
 #### Alignment of security requirements with advertised features
 
 MISP focuses on ease of use as their number one selling point, which adds concern that security requirements may be over looked to promote this feature.  Another advertised feature is the ease of sharing with trusted partners and trust-groups.  This is supposed to eliminate the duplication of work and enable collaborative analysis.  As part of this ease of use idea, data sharing is made easier by automatically exchanging and synchronizing with other parties and trust-groups in MISP.  MISP allows for simple built in sharing to delegate the publication of events or indicators to other organizations.  Each organization can use the advanced filtering functionality to tailor their own sharing policy including flexible sharing group policy and attribute level distribution mechanisms.
 
-These features align to some extent with our security requirements.  It does require authentication.  But, in the documentation, is does not say that you could connect MISP to an identity store.  This would allow your own identity management system to control access.  The result is a single location were identity creation and deprovisioning is done, which alleviates the possibility of accounts left active.  It is also not clear whether a user can create accounts as well, even an administrator account.  There is user and role creation to dictate access control.  They promote the automatic exchange and synchronization of data and events, which would be done by an API.  Applications and API’s do not always verify the user is authorized for that target resource.  This would result in an access control flaw.
+These features align to some extent with our security requirements.  It does require authentication.  But, in the documentation, is does not say that you could connect MISP to an identity store.  This would allow your own identity management system to control access.  This would help with identity creation and decommissioning.  It is also not clear whether a user can create accounts as well, even an administrator account.  There is user and role creation to dictate access control.  They promote the automatic exchange and synchronization of data and events, which would be done by an API.  Applications and API’s do not always verify the user is authorized for that target resource.  This would result in an access control flaw.
 
 #### Security related configuration
 The features section of the MISP website does not suggest an emphasis on the security of the system, rather it focuses on the ease of use for the user to add, edit, and share the event information as they have entered it.  It also focuses on the flexibility of its design in various capacities, i.e. storing of data, integration with in-house solutions, and sharing of information with colleagues and others.
@@ -71,11 +71,11 @@ The User Guide documentation does not reference all the security requirements. T
 #### Installation
 The installation guide references multiple security best practices.  To start, it recommends installing a minimal server version and enabling the server features required by the system.  After the necessary features are enabled, the guide recommends hardening each feature, specifically the OS, Apache, and MySQL.  In addition, it recommends changing many of the default settings after installation, including the administrator password, email address, GPG key and the salt used to generate GPG keys, and directory-level group write access permissions.
 
-CakePHP is included as a submodule of MISP which greatly increases the attack surface.  Additional unnecessary functionality increases the number of possible failure points.
+MISP uses several open source submodules, like CakePHP, MySQL, and Apache, which increases the potential attack surface.  The additional functionality provided by these submodules increases the number of possible failure points.
 
-If a valid SSL certificate is not already created for the server, the documentation suggests creating a self-signed certificate which is not good for use in a production environment.  The documentation could be improved by stating that self-signed certificates are acceptable for development and closed environments but should not be used for sites accessed by users over the Internet.
+If a valid SSL certificate is not already created for the server, the documentation suggests creating a self-signed certificate which is not good for use in a production environment, and with the availability of free certificates, from services like [Let's Encrypt](https://letsencrypt.org/), it is not necessary to use one.  The documentation could be improved by stating self-signed certificates are acceptable for development, testing purposes, and closed environments but should not be used for sites accessed by users over the Internet. If one wanted to use a self-signed certificate, the key size suggested by the documentation is sufficiently large.  
 
-The key size suggested for the self signed certificate is sufficiently large.  (Seems there are other certificate requirements that Mozilla and Google have been enforcing recently)
+(Seems there are other certificate requirements that Mozilla and Google have been enforcing recently)
 sudo openssl req -newkey rsa:4096 -days 365 -nodes -x509 \ - good algorithm used in rsa 4096 to generate certificate>
 
 In the sample configuration files, both port 80 and 443 Apache configurations are included.  Port 80 is configured as a permanent redirect to port 433 which relies on https for securing data in transmission.  
