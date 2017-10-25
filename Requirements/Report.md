@@ -2,7 +2,7 @@
 
 ### Assurance Claims
 The final assurance claims for the MISP project are as follows:
-  1. System prevents distribution of event information to those who are not permitted to view it.
+  1. System only distrubtes event information to permitted groups.
 
   2. Role based access is implemented in an acceptably secure manner.
 
