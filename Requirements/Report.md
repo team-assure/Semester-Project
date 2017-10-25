@@ -64,20 +64,15 @@ The features section of the MISP website does not suggest an emphasis on the sec
 
 However, many of the system components involved in the security requirements above are discussed in the features section.  Like most programs, an administrator has the responsibility to add, edit, or delete users, maintain organizations (both internal and external), and create roles to which users are assigned, among other tasks.  This implies that role-based access control is a capability of the system.  The features indicate that the system has a "flexible API to integrate MISP with \[other\] solutions" but does not discuss how it secures the administration features of that API.  Also, the documentation heavily references the sharing of data but does not allude to any of the security measures around such sharing other than the role-based access control already discussed.
 
-The User Guide does discuss security-related topics in more detail.  For instance, it describes how to set up GPG encryption keys to be used for login, which conforms to the secure authentication requirement.
+The User Guide does discuss some security-related topics in more detail.  For instance, it describes how to set up GPG encryption keys to be used for login, which conforms to the secure authentication requirement.  The administration guide also provides additional information, inlcuding where to find logging of system events such as failed logon attempts.  This allows better response to incidents where the system is involved.
 
 The User Guide documentation does not reference all the security requirements. The requirement to protect against common web attacks is not discussed in the documentation.
 
 #### Installation
 The installation guide references multiple security best practices.  To start, it recommends installing a minimal server version and enabling the server features required by the system.  After the necessary features are enabled, the guide recommends hardening each feature, specifically the OS, Apache, and MySQL.  In addition, it recommends changing many of the default settings after installation, including the administrator password, email address, GPG key and the salt used to generate GPG keys, and directory-level group write access permissions.
 
-MISP uses several open source submodules, like CakePHP, MySQL, and Apache, which increases the potential attack surface.  The additional functionality provided by these submodules increases the number of possible failure points.
+MISP uses several open source submodules, like CakePHP, MySQL, and Apache, which increases the potential attack surface.  The additional functionality provided by these submodules increases the number of possible failure points and requires the system to be updated if vulnerabilities are discovered in any of these libraries.
 
 If a valid SSL certificate is not already created for the server, the documentation suggests creating a self-signed certificate which is not good for use in a production environment, and with the availability of free certificates, from services like [Let's Encrypt](https://letsencrypt.org/), it is not necessary to use one.  The documentation could be improved by stating self-signed certificates are acceptable for development, testing purposes, and closed environments but should not be used for sites accessed by users over the Internet. If one wanted to use a self-signed certificate, the key size suggested by the documentation is sufficiently large.  
 
-(Seems there are other certificate requirements that Mozilla and Google have been enforcing recently)
-sudo openssl req -newkey rsa:4096 -days 365 -nodes -x509 \ - good algorithm used in rsa 4096 to generate certificate>
-
-In the sample configuration files, both port 80 and 443 Apache configurations are included.  Port 80 is configured as a permanent redirect to port 433 which relies on https for securing data in transmission.  
-
-database password included in config file in plaintext (there is debate whether the password in a php file is secure - it should probably be in a directory that is not under Apache's document root directory)
+In the sample configuration files, both port 80 and 443 Apache configurations are included.  Port 80 is configured as a permanent redirect to port 433 which relies on https for securing data in transmission.  In this case, the document encourages good security practices by default upon installation.  On the other hand, the installation guide encourages including the database password in plaintext in the apache config file.  While this is not uncommon, it is not a great security practice and should be discouraged if possible.
