@@ -2,7 +2,7 @@
 
 ### Assurance Claims
 The final assurance claims for the MISP project are as follows:
-  1. System only distrubtes event information to permitted groups.
+  1. System only distributes event information to permitted groups.
 
   2. Role based access is implemented in an acceptably secure manner.
 
@@ -49,7 +49,7 @@ The final assurance claims for the MISP project are as follows:
 ### Project documentation review
 
 MISP documentation is found in the following locations:
-* [Installing MISP](https://github.com/MISP/MISP/blob/2.4/INSTALL/INSTALL.ubuntu1604.txt) 
+* [Installing MISP](https://github.com/MISP/MISP/blob/2.4/INSTALL/INSTALL.ubuntu1604.txt)
 * [Initial Configuration](https://www.circl.lu/doc/misp/user-management/)
 * [Regular Administration](https://www.circl.lu/doc/misp/administration/)
 
@@ -64,7 +64,7 @@ The features section of the MISP website does not suggest an emphasis on the sec
 
 However, many of the system components involved in the security requirements above are discussed in the features section.  Like most programs, an administrator has the responsibility to add, edit, or delete users, maintain organizations (both internal and external), and create roles to which users are assigned, among other tasks.  This implies that role-based access control is a capability of the system.  The features indicate that the system has a "flexible API to integrate MISP with \[other\] solutions" but does not discuss how it secures the administration features of that API.  Also, the documentation heavily references the sharing of data but does not allude to any of the security measures around such sharing other than the role-based access control already discussed.
 
-The User Guide does discuss some security-related topics in more detail.  For instance, it describes how to set up GPG encryption keys to be used for login, which conforms to the secure authentication requirement.  The administration guide also provides additional information, inlcuding where to find logging of system events such as failed logon attempts.  This allows better response to incidents where the system is involved.
+The User Guide does discuss some security-related topics in more detail.  For instance, it describes how to set up GPG encryption keys to be used for login, which conforms to the secure authentication requirement.  The administration guide also provides additional information, including where to find logging of system events such as failed logon attempts.  This allows better response to incidents where the system is involved.
 
 The User Guide documentation does not reference all the security requirements. The requirement to protect against common web attacks is not discussed in the documentation.
 
@@ -75,4 +75,4 @@ MISP uses several open source submodules, like CakePHP, MySQL, and Apache, which
 
 If a valid SSL certificate is not already created for the server, the documentation suggests creating a self-signed certificate which is not good for use in a production environment, and with the availability of free certificates, from services like [Let's Encrypt](https://letsencrypt.org/), it is not necessary to use one.  The documentation could be improved by stating self-signed certificates are acceptable for development, testing purposes, and closed environments but should not be used for sites accessed by users over the Internet. If one wanted to use a self-signed certificate, the key size suggested by the documentation is sufficiently large.  
 
-In the sample configuration files, both port 80 and 443 Apache configurations are included.  Port 80 is configured as a permanent redirect to port 433 which relies on https for securing data in transmission.  In this case, the document encourages good security practices by default upon installation.  On the other hand, the installation guide encourages including the database password in plaintext in the apache config file.  While this is not uncommon, it is not a great security practice and should be discouraged if possible.
+In the sample configuration files, both port 80 and 443 Apache configurations are included.  Port 80 is configured as a permanent redirect to port 433 which relies on https for securing data in transmission.  In this case, the document encourages good security practices by default upon installation.  On the other hand, the installation guide encourages including the database password in plaintext in the PHP configuration file.  While this is not uncommon, it is not a great security practice.  The recommended practice is to ensure the configuration file is outside the webserver document path and live system passwords are not copied into a version control repository.
