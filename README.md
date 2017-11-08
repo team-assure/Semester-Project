@@ -11,7 +11,7 @@ https://robinagandhi.github.io/swa/pages/project.html
 - [x] 2. **Assurance Cases Software Security Engineering**: due September 27, 2017: A short report that includes the following:
   * 5 assurance claims that would require evidence from software security engineering activities
   * Build 5 assurance cases; one for each of the claims
-- [ ] 3. **Requirements for Software Security Engineering**: 2-3 page report that describes the following:
+- [x] 3. **Requirements for Software Security Engineering**: 2-3 page report that describes the following:
   * Identify security requirements based on assurance claims
   * Document security requirements for the project captured using mis-use case diagrams
   * Include links to Lucidchart diagrams with brief descriptions in the document
