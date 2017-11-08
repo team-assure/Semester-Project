@@ -1,6 +1,3 @@
-# Contents
+# Designing for Software Security Engineering
 
-* [TMT Files](./TMT%20Files) - Directory containing original source files
-* [Authentication.htm](./Authentication.htm) - HTML report for the Authentication use case
-* [Common Attacks.htm](./Common%20Attacks.htm) - HTML report for the add IOC data use case
-* [README](./README.md) - This file
+Threat Model Report: [Level 1](http://htmlpreview.github.io/?https://github.com/team-assure/Semester-Project/blob/master/Design/Level_1.htm)
