@@ -17,8 +17,9 @@ Of the 35 threats identified, xx are properly mitigated within the MISP system. 
 There were xx threats that have the ability to be mitigated based on implementation decisions.  These occur as follows
 * Apache configuration: Apache must be configured by the administrator at installation time.  MISP does recommend several security best practices during instalation, but it is up to the system administrator to research Apache configurations and ensure that the proper settings are configured for their environment.  The following vulnerabilities depend on proper Apache configurations.
   * 5 - Data Flow Sniffing
-* Firewall Configuration: 
   * 6 - Potential Process Crash or Stop for 1.0 MISP Apache Process
+* Firewall Configuration: 
+  
 
 There were xx threats where the MISP project appears to be vulnerable.  These are
 
