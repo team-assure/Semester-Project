@@ -56,6 +56,12 @@ One solution for this possible vulnerability at implementation time would be to 
 ##### SMTP Configuration
 One of our threat properties was spoofing of emails external destination entity and to mitigate this, the software should require authentication.  Something else to investigate will be the possibility of sniffing the data flow to determine if all data is encrypted.  It is possible to leak some data in the MISP.extended_alert_subject, which allows you to have an extended subject, so the subject would not be encrypted. To mitigate, ensure that all data is encrypted.
   * 25 - Spoofing of the Email servers External Destination Entity
-  * 33 - Data Flow Sniffing 
+  * 33 - Data Flow Sniffing
 
-### Reflections
+### Reflections on contributing back to the MISP community
+*  Helping to improve configuration documentation
+*  Applying design patterns to identity ways
+   * Move separate functions needing different privilege levels into mutually untrusting components
+   * Reduce functionality and data exposed to an attacker if one of the mutually untrusting components is compromised
+   * Reduce the amount of exposed code that runs with special/high privilege without affecting or limiting the functionality of the program
+   * Run exposed system interfaces as limited privilege clients to high privilege system services with defined information requests only 
