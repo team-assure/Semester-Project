@@ -18,6 +18,19 @@ Of the 35 threats identified, 13 are properly mitigated within the MISP system. 
 * 16 - Elevation by Changing the Execution Flow in MISP Apache Process
 * 17 - Cross Site Request Forgery
 * 18 - Spoofing of the REST API Users External Destination Entity
+* 19 - External Entity REST API Users Potentially Denies Receiving Data
+* 20 - Data Flow HTTP REST response Is Potentially Interrupted
+* 21 - Spoofing the 1.0 MISP Apache Process Process
+* 23 - Data Store Denies MySQL database Potentially Writing Data
+* 24 - Data Flow Sniffing
+* 26 - Data Store Inaccessible
+* 28 - Potential Data Repudiation by 1.0 MISP Apache Process
+* 29 - Potential Process Crash or Stop for 1.0 MISP Apache Process
+* 30 - Data Flow Generic Data Flow Is Potentially Interrupted
+* 31 - Data Store Inaccessible
+* 32 - 1.0 MISP Apache Process May be Subject to Elevation of Privilege Using Remote Code Execution
+* 36 - Authenticated Data Flow Compromised
+* 37 - Authenticated Data Flow Compromised
 
 #### Threats requiring further investigation
 
