@@ -32,6 +32,13 @@ Apache must be configured by the administrator at installation time.  MISP does 
 
 ##### Firewall Configuration:
 One solution for this possible vulnerability at implementation time would be to ensure the appropriate firewall rules were in place to prevent denial of service.  When high volumes of traffic are identified, we will need to investigate if it is possible to rate limit the traffic, so that other connections may persist.  The following vulnerabilities can be mitigated by appropriate firewall configurations.
+  * 7 - Data Flow HTTP REST request Is Potentially Interrupted
+  * 14 - Data Flow HTTP REST response Is Potentially Interrupted
+  * 21 - Data Flow Generic Data Flow Is Potentially Interrupted
+  * 22 - Data Store Inaccessible
+  * 27 - Data Flow SMTP Is Potentially Interrupted
+  * 34 - Data Flow SQL query Is Potentially Interrupted
+  * 35 - Data Store Inaccessible
 
 ##### SMTP Configuration
 One of our threat properties was spoofing of emails external destination entity and to mitigate this, the software should require authentication.  Something else to investigate will be the possibility of sniffing the data flow to determine if all data is encrypted.  It is possible to leak some data in the MISP.extended_alert_subject, which allows you to have an extended subject, so the subject would not be encrypted. To mitigate, ensure that all data is encrypted.
