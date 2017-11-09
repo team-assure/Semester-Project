@@ -45,5 +45,4 @@ One of our threat properties was spoofing of emails external destination entity 
   * 25 - Spoofing of the Email servers External Destination Entity
   * 33 - Data Flow Sniffing 
 
-
-A few threats need to be further investigated in the MISP implementation. One of these threats was regarding denial of service attacks on various threat properties of MISP.       Another area which we noticed deserved some attention was to make sure that there were no gaps in logging and that the appropriate information was being captured.
+### Reflections
