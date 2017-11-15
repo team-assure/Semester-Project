@@ -16,7 +16,7 @@ https://robinagandhi.github.io/swa/pages/project.html
   * Document security requirements for the project captured using mis-use case diagrams
   * Include links to Lucidchart diagrams with brief descriptions in the document
   * Review project documentation for security related configuration and installation
-- [ ] 4. **Designing for Software Security Engineering**: 2-3 page report that describes the following:
+- [x] 4. **Designing for Software Security Engineering**: 2-3 page report that describes the following:
   * Develop threat models for critical data-flows through the software captured in mis-use cases
   * Include diagrams   
   * Discuss alignment of threat models with actual software design
