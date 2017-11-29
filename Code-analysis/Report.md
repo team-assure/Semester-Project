@@ -14,14 +14,15 @@ A last example from our assurance cases would be from our common attacks case, w
 # Summary of key findings from manual code analysis. 
 
 * Authentication and session management
-    * CWE-287: Improper Authentication
-    * CWE-384: Session Fixation
+    * [CWE-287: Improper Authentication](https://cwe.mitre.org/data/definitions/287.html)
+    * [CWE-384: Session Fixation](https://cwe.mitre.org/data/definitions/384.html)
 * Access Control
-    * CWE-285: Improper Authorization
-    * CWE-639: Authorization Bypass Through User-Controlled Key
-    * CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
+    * [CWE-285: Improper Authorization](https://cwe.mitre.org/data/definitions/285.html)
+    * [CWE-639: Authorization Bypass Through User-Controlled Key](https://cwe.mitre.org/data/definitions/639.html)
+    * [CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')](https://cwe.mitre.org/data/definitions/22.html)
 * Common Attacks (Cross-site scripting)
-    * CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+    * [CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')](https://cwe.mitre.org/data/definitions/79.html)
+    * [CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')](https://cwe.mitre.org/data/definitions/89.html)
     
 # Summary of key finding from automated code analysis.
 
