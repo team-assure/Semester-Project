@@ -2,4 +2,9 @@ Code Review Strategy
 Manual code review of critical security functions identified in mis-use cases and threat models
 Automated code scanning (if available). Include links to full reports
 Summary of key findings from manual and/or automated scanning. This may include: Categorization, Mappings to CWEs, CAPECs, Risk Levels etc
+# Access Control
+CWE-285: Improper Authorization
+CWE-639: Authorization Bypass Through User-Controlled Key
+CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
+
 Links to any pull requests, issues, discussion, etc. from the team to the original project and any follow-up interactions
