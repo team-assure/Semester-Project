@@ -7,6 +7,8 @@ Another example from our assurance cases was access control.  Again, a review of
 
 A last example from our assurance cases would be from our common attacks case, which dealt with cross-site scripting.  Here we would want to review the code to see if it uses user supplied input as part of the HTML output or to make sure the attacker controllable data cannot be added to a web page.  This could be done with automatic tools fairly effectively.
 
+In addition, our code review strategy involved performing static analysis of the code using a publically avaiable open source tool.  We used [RIPS](http://rips-scanner.sourceforge.net/) to perform static analysis.  This is a popular PHP static code analysis tool.  The RIPS tool produced extensive output.  As part of our strategy, we spot checked the results of the analysis for major issues and categorized all findings by CWE to identify where common issues are.
+
 # Manual code review of critical security functions identified in mis-use cases and threat models
 
 # Automated tools (include links)
