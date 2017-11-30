@@ -14,7 +14,7 @@ A third assurance case applied to protecting against common web attacks, includi
 
 Running the SWAMP analysis tool, the [generated output](SwampReport_MISP.pdf) was not able to categorize the reported error or warnings into levels or match them with CWEs.  Therefore we moved on to the RISP analysis package. 
 
-Focusing on the cross-site scripting vulnerabilities, since the system has a history of these issues, we investigated some of the findings in more detail.
+RIPS categorized the findings as shown in the summary section below.  Focusing on the cross-site scripting vulnerabilities, since the system has a history of these issues, we investigated some of the findings (about 15) in more detail.
 
 In the [app/View/Helper/XmlOutputHelper.php](https://github.com/MISP/MISP/blob/2.4/app/View/Helper/XmlOutputHelper.php) file, there is a possibility for cross-site scripting since the code echos items in an array to php code.  Further investigation would need to be done to confirm that all locations where this function is called properly escapes user-inputed code.  This was not performed due to the size of the code base.
 
