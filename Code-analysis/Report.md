@@ -12,7 +12,7 @@ A third assurance case applied to protecting against common web attacks, includi
 
 # Automated Code Review Analysis
 
-Running the SWAMP analysis tool, the [generated output](Assessment Report_MISP.pdf) was not able to categorize the reported error or warnings into levels or match them with CWEs.  Therefore we moved on to the RISP analysis package. 
+Running the SWAMP analysis tool, the [generated output](SwampReport_MISP.pdf) was not able to categorize the reported error or warnings into levels or match them with CWEs.  Therefore we moved on to the RISP analysis package. 
 
 Focusing on the cross-site scripting vulnerabilities, since the system has a history of these issues, we investigated some of the findings in more detail.
 
