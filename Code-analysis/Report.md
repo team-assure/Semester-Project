@@ -10,6 +10,10 @@ Another assurance cases was access control.  Again, a review of the code to veri
 
 A third assurance case applied to protecting against common web attacks, including cross-site scripting.  Here we would want to review the code to see if it uses user supplied input as part of the HTML output or to make sure the attacker controllable data cannot be added to a web page.  This could be done with automatic tools fairly effectively, but can also be reviewed manually.
 
+# Automated Code Review Analysis
+Focusing on the cross-site scripting vulnerabilities, since the system has a history of these issues, we investigated some of the findings in more detail.
+
+In the [app/View/Helper/XmlOutputHelper.php](https://github.com/MISP/MISP/blob/2.4/app/View/Helper/XmlOutputHelper.php) file, there is a possibility for cross-site scripting since the code echos items in an array to php code.  Further investigation would need to be done to confirm that all locations where this function is called properly escapes user-inputed code.  This was not performed due to the size of the code base.
 
 # Summary of key findings from manual code analysis.
 Based on the possible issues discovered during manual code review, we identified the following CWE's that map to these items.
