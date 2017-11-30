@@ -1,9 +1,5 @@
 # Code Review Strategy
-<<<<<<< HEAD
 To start our code review strategy, we first needed to decide what we needed to review.  To do this, it was important to first review our assurance cases.  This helped us think about what areas we were initially concerned about regarding the software. Then reviewing our mis-use cases and our threat models helped further define possible attack vectors or mis-configurations that may exist.  A review of recently reported vulnerabilities in the NIST database revealed a high frequency of cross-site scripting vulnerabilities being reported relative to other vulnerability categories:  [CVE-2017-16802](https://nvd.nist.gov/vuln/detail/CVE-2017-16802)-reported November 13, 2017;  [CVE-2017-15216](https://nvd.nist.gov/vuln/detail/CVE-2017-15216)-reported October 10, 2017;  [CVE-2017-13671](https://nvd.nist.gov/vuln/detail/CVE-2017-13671)-reported August 24, 2017;  [CVE-2017-7215](https://nvd.nist.gov/vuln/detail/CVE-2017-7215)-reported March 21, 2017.  These recent vulnerabilities weighed heavily in our analysis.   Using these analysis factors, the areas of the code and categories of weaknesses and vulnerabilities to be reviewed were decided and prioritized.   
-=======
-To start our code review strategy, we first needed to decide what we needed to review.  To do this, it was important to first review our assurance cases.  This helped us think about what areas we were initially concerned about regarding the software. Then reviewing our mis-use cases and our threat models helped further define possible attack vectors or mis-configurations that may exist.  From this, it could be decided what areas of the code may need to be reviewed for weaknesses and vulnerabilities.  Once these areas were identified, we mapped them to high-level CWE's that represent the possible issues.
->>>>>>> 4236d6d2988b33b83af5f73bd3a08e903f63a08f
 
 In addition, our code review strategy involved performing static analysis of the code using a publically available open source tool.  We used [RIPS](http://rips-scanner.sourceforge.net/) to perform static analysis.  This is a popular PHP static code analysis tool.  The RIPS tool produced extensive output.  As part of our strategy, we spot checked the results of the analysis for major issues and categorized all findings by CWE to identify where common issues are.  Due to the amount of output produced by the report, we did not attempt to verify every finding that the automated tool produced.
 
@@ -15,12 +11,8 @@ Another assurance cases was access control.  Again, a review of the code to veri
 A third assurance case applied to protecting against common web attacks, including cross-site scripting.  Here we would want to review the code to see if it uses user supplied input as part of the HTML output or to make sure the attacker controllable data cannot be added to a web page.  This could be done with automatic tools fairly effectively, but can also be reviewed manually.
 
 
-<<<<<<< HEAD
 # Summary of key findings from manual code analysis.
-=======
-# Summary of key findings from manual code analysis. 
 Based on the possible issues discovered during manual code review, we identified the following CWE's that map to these items.
->>>>>>> 4236d6d2988b33b83af5f73bd3a08e903f63a08f
 
 * Authentication and session management
     * [CWE-287: Improper Authentication](https://cwe.mitre.org/data/definitions/287.html)
