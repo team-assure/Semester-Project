@@ -27,7 +27,7 @@ A third assurance case applied to protecting against common web attacks, includi
     * [CWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection')](https://cwe.mitre.org/data/definitions/77.html)
     
 # Summary of key finding from automated code analysis.
-
+[Link to RIPS Report](https://github.com/team-assure/Semester-Project/raw/master/Code-analysis/RIPS%20Report.pdf)
 * Goals - The goals of our automated tool review was to confirm the veracity of our threat models and determine whether they were affirmed or not.  We utilized [RIPS](http://rips-scanner.sourceforge.net/) to process our static analysis.  While an older version of the program, we found it through a referral from the [OWASP - Security Analysis Tools](https://www.owasp.org/index.php/Source_Code_Analysis_Tools) website.
 * Tool execution - the tool is a web based application which scans the selected project for a number of weaknesses.
 * Review - RIPS found 260 issues from it's scan.
