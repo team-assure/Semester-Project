@@ -15,6 +15,8 @@ Focusing on the cross-site scripting vulnerabilities, since the system has a his
 
 In the [app/View/Helper/XmlOutputHelper.php](https://github.com/MISP/MISP/blob/2.4/app/View/Helper/XmlOutputHelper.php) file, there is a possibility for cross-site scripting since the code echos items in an array to php code.  Further investigation would need to be done to confirm that all locations where this function is called properly escapes user-inputed code.  This was not performed due to the size of the code base.
 
+In the [/app/Console/Command/PasswordShell.php](https://github.com/MISP/MISP/blob/2.4/app/Console/Command/PasswordShell.php) file, the RIPS scanner identified Cross-Site Scripting findings that, upon further review, appear to be false postiives.  The findings identified in this file check user input to see if a password is provided, but does not do anything with the input that could cause the input to be stored or executed as is required in a XSS attack.
+
 # Summary of key findings from manual code analysis.
 Based on the possible issues discovered during manual code review, we identified the following CWE's that map to these items.
 
