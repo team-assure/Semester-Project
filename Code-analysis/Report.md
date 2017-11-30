@@ -38,8 +38,8 @@ Based on the possible issues discovered during manual code review, we identified
 * Goals - The goals of our automated tool review was to confirm the veracity of our threat models and determine whether they were affirmed or not.  We utilized [RIPS](http://rips-scanner.sourceforge.net/) to process our static analysis.  While an older version of the program, we found it through a referral from the [OWASP - Security Analysis Tools](https://www.owasp.org/index.php/Source_Code_Analysis_Tools) website.
 * Tool execution - the tool is a web based application which scans the selected project for a number of weaknesses.
 * Review - RIPS found 260 issues from it's scan.  28 were Cross-Site Scripting findings, which were investigated more fully in the analysis section.  Beyond that, further investigation needs to be done to see if the system has an issue with File and DIrectory Information Exposure or File Exclusions since those are the next two most common issues.
-     * Cross-Site Scripting (28)
-        * [CWE-93: Improper Neutralization of CRLF Sequences](https://cwe.mitre.org/data/definitions/93.html)
+    * [CWE-93: Improper Neutralization of CRLF Sequences](https://cwe.mitre.org/data/definitions/93.html)
+        * Cross-Site Scripting (28)
     * [CWE-538: File and Directory Information Exposure](https://cwe.mitre.org/data/definitions/538.html)
         * File Disclosures (101)
         * File Manipulation (40)
