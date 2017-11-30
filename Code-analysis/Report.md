@@ -1,7 +1,7 @@
 # Code Review Strategy
-To start our code review strategy, we first needed to decide what we needed to review.  To do this, it was important to first review our assurance cases.  This helped us think about what areas we were initially concerned about regarding the software. Then reviewing our mis-use cases and our threat models helped further define possible attack vectors or mis-configurations that may exist.  From this, it could be decided what areas of the code may need to be reviewed for weaknesses and vulnerabilities.  
+To start our code review strategy, we first needed to decide what we needed to review.  To do this, it was important to first review our assurance cases.  This helped us think about what areas we were initially concerned about regarding the software. Then reviewing our mis-use cases and our threat models helped further define possible attack vectors or mis-configurations that may exist.  A review of recently reported vulnerabilities in the NIST database revealed a high frequency of cross-site scripting vulnerabilities being reported relative to other vulnerability categories:  [CVE-2017-16802](https://nvd.nist.gov/vuln/detail/CVE-2017-16802)-reported November 13, 2017;  [CVE-2017-15216](https://nvd.nist.gov/vuln/detail/CVE-2017-15216)-reported October 10, 2017;  [CVE-2017-13671](https://nvd.nist.gov/vuln/detail/CVE-2017-13671)-reported August 24, 2017;  [CVE-2017-7215](https://nvd.nist.gov/vuln/detail/CVE-2017-7215)-reported March 21, 2017.  These recent vulnerabilities weighed heavily in our analysis.   Using these analysis factors, the areas of the code and categories of weaknesses and vulnerabilities to be reviewed were decided and prioritized.   
 
-In addition, our code review strategy involved performing static analysis of the code using a publically avaiable open source tool.  We used [RIPS](http://rips-scanner.sourceforge.net/) to perform static analysis.  This is a popular PHP static code analysis tool.  The RIPS tool produced extensive output.  As part of our strategy, we spot checked the results of the analysis for major issues and categorized all findings by CWE to identify where common issues are.  Due to the amount of output produced by the report, we did not attempt to verify every finding that the automated tool produced.
+In addition, our code review strategy involved performing static analysis of the code using a publically available open source tool.  We used [RIPS](http://rips-scanner.sourceforge.net/) to perform static analysis.  This is a popular PHP static code analysis tool.  The RIPS tool produced extensive output.  As part of our strategy, we spot checked the results of the analysis for major issues and categorized all findings by CWE to identify where common issues are.  Due to the amount of output produced by the report, we did not attempt to verify every finding that the automated tool produced.
 
 # Manual code review of critical security functions identified in mis-use cases and threat models
 One assurance case was authentication.  So, one would want to do static analysis of code surrounding authentication to ensure that the application functions related to authentication and session management are implemented correctly.  Checking to see that user credentials are properly protected by hashing or encryption, confirming strong account management functions, no sessions ID’s are exposed in URL, session ID’s are not vulnerable to fixation attacks, and that they are not rotated after login.  
@@ -11,7 +11,7 @@ Another assurance cases was access control.  Again, a review of the code to veri
 A third assurance case applied to protecting against common web attacks, including cross-site scripting.  Here we would want to review the code to see if it uses user supplied input as part of the HTML output or to make sure the attacker controllable data cannot be added to a web page.  This could be done with automatic tools fairly effectively.
 
 
-# Summary of key findings from manual code analysis. 
+# Summary of key findings from manual code analysis.
 
 * Authentication and session management
     * [CWE-287: Improper Authentication](https://cwe.mitre.org/data/definitions/287.html)
@@ -25,7 +25,7 @@ A third assurance case applied to protecting against common web attacks, includi
     * [CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')](https://cwe.mitre.org/data/definitions/89.html)
     * [CWE-611: Improper Restriction of XML External Entity Reference ('XXE')](https://cwe.mitre.org/data/definitions/611.html)
     * [CWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection')](https://cwe.mitre.org/data/definitions/77.html)
-    
+
 # Summary of key finding from automated code analysis.
 
 * Goals - The goals of our automated tool review was to confirm the veracity of our threat models and determine whether they were affirmed or not.  We utilized [RIPS](http://rips-scanner.sourceforge.net/) to process our static analysis.  While an older version of the program, we found it through a referral from the [OWASP - Security Analysis Tools](https://www.owasp.org/index.php/Source_Code_Analysis_Tools) website.
@@ -37,7 +37,7 @@ A third assurance case applied to protecting against common web attacks, includi
 	* [CWE-73: External Control of File Name or Path](https://cwe.mitre.org/data/definitions/73.html)
       * File Inclusion (14)
 	* [CWE-78: Improper Neutralization of Special Elements used in an OS Command](https://cwe.mitre.org/data/definitions/78.html)
-	    * Command Execution (34) 
+	    * Command Execution (34)
 	* [CWE-94: Improper Control of Generation of Code](https://cwe.mitre.org/data/definitions/94.html)
       * Code Execution (29)
       * Possible Flow Control (15)
